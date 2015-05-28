@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonTheCat"
+        android:background="#F08C35"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonTheCatText"
+        android:onClick="buttonTheCatClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textAllCaps="false"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/buttonTheCat"
+        android:layout_marginBottom="25dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:id="@+id/buttonThing1"
+            android:background="#F08C35"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonThing1Text"
+            android:onClick="buttonThing1Click"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/buttonThing2"
+            android:background="#F08C35"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonThing2Text"
+            android:onClick="buttonThing2Click"
+            android:layout_marginLeft="13dp"
+            android:textAllCaps="false"
+
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonThingamajigger"
+        android:background="#F08C35"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Thingamajigger"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/buttonSally"
+        android:background="#F08C35"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSallyText"
+        android:onClick="buttonSallyClick"
+        android:layout_below="@+id/buttonThingamajigger"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/buttonNick"
+        android:background="#F08C35"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonNickText"
+        android:onClick="buttonNickClick"
+        android:layout_below="@+id/buttonSally"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/buttonDrSeuss"
+        android:background="#FF0000"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonDrSeussText"
+        android:onClick="buttonDrSeussClick"
+        android:layout_below="@+id/buttonNick"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

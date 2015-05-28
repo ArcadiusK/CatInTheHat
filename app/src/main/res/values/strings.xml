@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CatInTheHat</string>
+
+    <string name="buttonTheCatText">The Cat</string>
+    <string name="buttonThing1Text">Thing 1</string>
+    <string name="buttonThing2Text">Thing 2</string>
+    <string name="buttonThingamajiggerText">Thingamajigger</string>
+    <string name="buttonSallyText">Sally</string>
+    <string name="buttonNickText">Nick</string>
+    <string name="buttonDrSeussText">Dr. Seuss</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
