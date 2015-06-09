@@ -82,7 +82,7 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
                 // Do something in response to button click
                 Context context = getApplicationContext();
-                Toast toast = Toast.makeText(context, getString(R.string.buttonNickText), Toast.LENGTH_LONG);
+                Toast toast = Toast.makeText(context, getString(R.string.buttonNickText), Toast.LENGTH_SHORT);
                 toast.show();
             }
         });
